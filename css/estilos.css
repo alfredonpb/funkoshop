@@ -1,5 +1,10 @@
 body{    
     background: #f2f2f2;
+    
+}
+body a{
+    text-decoration: none;
+    color: #ffff;
 }
 body p{
     padding: 0px;
@@ -43,11 +48,30 @@ background-color: #ba3842;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
-
 .btn-juguetes{
     border-radius: 20px;
 }
+
 footer{
     background-color: #30343f;
-    height: 180px;
+    height: 220px;
 }
+footer a{
+    text-decoration: none;
+}
+
+/* ANIMACIONES */
+
+.compra-ahora{
+    background: linear-gradient(217deg, rgba(231, 228, 35, 0.92), rgba(231, 81, 36, 0.807) 70.71%);
+    animation: compra-ahora 2s ease infinite;  
+}
+
+@keyframes compra-ahora{
+    0%{opacity: 1;}
+    25%{opacity: 0.5;}
+    50%{opacity: 0;}
+    75%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+

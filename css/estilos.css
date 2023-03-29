@@ -53,10 +53,10 @@ AQUI COMIENZA LA NORMALIZACIÓN
     esas cajas el contenido que contienen*/
     box-sizing: border-box;
 }
-html{
-    /*Esto equivale a 10px*/
-    /* font-size: 62.53; */
-}
+/*html{
+    Esto equivale a 10px*/
+    /* font-size: 62.53; 
+}*/
 a{
     text-decoration: none;
     color:inherit;
@@ -66,7 +66,7 @@ ul, ol{
     list-style-type:none ;
 }
 p{
-    font-size: 1.8em;
+    font-size: 1em;
 }
 .container{
     max-width: 1200px;

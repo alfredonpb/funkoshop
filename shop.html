@@ -42,7 +42,9 @@
     <!-- PRIMERA FILA -->   
     <div class="container py-4">
             <!-- PRIMER ROW -->
-        <div class="row d-flex align-items-center main-filas">  
+        <div class="row d-flex align-items-center main-filas">
+
+            <!-- BUSQUEDA Y CHECKBOXES  -->
             <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
                 <p class="text-dark">BUSCAR</p>
                 <input type="text" class="mb-2" placeholder="item o categoría">
@@ -51,17 +53,20 @@
                 <input type="select" class="mb-2" placeholder="mayor o menor">
 
                 <p class="text-dark">PRECIO</p>
-                MIN <input type="number" class="mb-2"> - MAX <input type="number" class="mb-2">
+                MIN <input type="number" class="mb-2"> <br>
+                MAX <input type="number" class="mb-2">
 
-                <p class="text-dark">FILTRAR</p>               
+                <div class="d-flex flex-column">
+                    <p class="text-dark">FILTRAR</p>               
                     <input type="checkbox" name="nuevo" id="nuevo">NUEVOS
                     <input type="checkbox" name="nuevo" id="nuevo">OFERTAS
                     <input type="checkbox" name="nuevo" id="nuevo">EDICIÓN ESPECIAL
-                    <input type="checkbox" name="nuevo" id="nuevo">FAVORITOS                
+                    <input type="checkbox" name="nuevo" id="nuevo">FAVORITOS  
+                </div>              
             </div>
             
             
-            <!-- SEGUNDO ROW -->
+            
             <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                 <div class="d-flex flex-row-reverse">
                     <p class="text-white text-center bg-danger d-inline-flex px-2 mt-2">NUEVO</p>
@@ -74,7 +79,7 @@
             </div>   
             
             
-            <!-- TERCER ROW -->
+            
             <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                 <div class="d-flex flex-row-reverse">
                     <p class="text-white text-center bg-danger d-inline-flex px-2 mt-2">NUEVO</p>
@@ -87,7 +92,7 @@
             </div>  
 
 
-            <!-- CUARTO ROW -->
+            
             <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                 <div class="d-flex flex-row-reverse">
                     <p class="text-white text-center bg-danger d-inline-flex px-2 mt-2">NUEVO</p>

@@ -40,8 +40,6 @@ AQUI COMIENZA LA NORMALIZACIÓN
     --spacing-16: 1.6rem;
     --spacing-12: 1.2rem;
     --spacing-8: 0.8rem;
-
-
 }
 
 *,
@@ -53,21 +51,21 @@ AQUI COMIENZA LA NORMALIZACIÓN
     esas cajas el contenido que contienen*/
     box-sizing: border-box;
 }
-html{
-    /*Esto equivale a 10px*/
-    /* font-size: 62.53; */
-}
+/*html{
+    Esto equivale a 10px*/
+    /* font-size: 62.53; 
+}*/
+
 a{
     text-decoration: none;
     color:inherit;
 }
-
 ul, ol{
     list-style-type:none ;
 }
-p{
+/* p{
     font-size: 1.8em;
-}
+} */
 .container{
     max-width: 1200px;
     margin: 0, auto;
@@ -132,12 +130,22 @@ background-color: #ba3842;
 
 footer{
     background-color: #30343f;
-    height: 250px;
+    height: 220px;
 }
 footer a{
     text-decoration: none;
 }
-
+@media screen and (max-width: 500px) {
+	 .logo{
+		width: 80px;               
+	}
+    .letras-footer{
+            font-size: 12px;           
+    }
+    footer{
+        height: 210px;
+    }
+}
 /* ANIMACIONES */
 
 .compra-ahora{

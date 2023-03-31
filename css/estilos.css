@@ -40,8 +40,6 @@ AQUI COMIENZA LA NORMALIZACIÓN
     --spacing-16: 1.6rem;
     --spacing-12: 1.2rem;
     --spacing-8: 0.8rem;
-
-
 }
 
 *,
@@ -112,37 +110,34 @@ background-color: #ffff;
 border-radius: 20px;
 }
 .boton-header:hover{
-    background-color: #11c43b;
-    
-    color:#ffff;
-    }
+background-color: #11c43b;    
+color:#ffff;
+}
 main p .nuevo{
 background-color: #ba3842;
 }
 .main-filas{
-    margin: 0px auto;
+margin: 0px auto;
 }
 .juguete{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
 }
 .btn-juguetes{
-    border-radius: 20px;
+border-radius: 20px;
 }
-
 footer{
-    background-color: #30343f;
-    height: 250px;
+background-color: #30343f;
+height: 250px;
 }
 footer a{
-    text-decoration: none;
+text-decoration: none;
 }
 
 /* ANIMACIONES */
-
 .compra-ahora{
-    background: linear-gradient(217deg, rgba(231, 228, 35, 0.92), rgba(231, 81, 36, 0.807) 70.71%);
-    animation: compra-ahora 2s ease infinite;  
+background: linear-gradient(217deg, rgba(231, 228, 35, 0.92), rgba(231, 81, 36, 0.807) 70.71%);
+animation: compra-ahora 2s ease infinite;  
 }
 
 @keyframes compra-ahora{

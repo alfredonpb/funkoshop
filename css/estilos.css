@@ -63,7 +63,7 @@ ul, ol{
     list-style-type:none ;
 }
 p{
-    font-size: 1.8em;
+    font-size: 1em;
 }
 .container{
     max-width: 1200px;
@@ -126,21 +126,21 @@ font-weight: 600;
 border-radius: 20px;
 }
 footer{
-    background-color: #30343f;
-    height: 250px;
+background-color: #30343f;
+height: 250px;
 }
 footer a{
 text-decoration: none;
 }
 @media screen and (max-width: 580px) {
-	 .logo{
+	.logo{
 		width: 80px;               
 	}
     .letras-footer{
-            font-size: 12px;           
+        font-size: 12px;           
     }
     footer{
-        height: 200px;
+        height: 220px;
     }
 }
 /* ANIMACIONES */

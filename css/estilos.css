@@ -130,7 +130,7 @@ border-radius: 20px;
 }
 footer{
 background-color: #30343f;
-height: 250px;
+height: 200px;
 }
 footer a{
 text-decoration: none;
@@ -142,10 +142,10 @@ text-decoration: none;
 		width: 80px;               
 	}
     .letras-footer{
-        font-size: 14px;           
+        font-size: 14px;       
     }
     footer{
-        height: 220px;
+        height: 225px;
     }
     nav{
         /* background-color: #30343f; */

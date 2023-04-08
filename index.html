@@ -13,35 +13,35 @@
     <title>Funkshop</title>
 </head>
 <body>
-
  
     <!-- MENU  -->
-    <nav class="container-fluid ">
-        <div class="row">
-
-            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex align-items-center justify-content-center">
-                <a href="index.html" class="navbar-brand logo">
-                    <img src="img/branding/isotype.svg" 
-                    title="Logotipo" alt="Logo" width="50px" class="rounded">
-                </a>
-                <p class="text-white fw-bold logo"><a href="index.html">FUNKOSHOP</a></p>
+    <header>
+        <nav class="container-fluid ">
+            <div class="row">
+    
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex align-items-center justify-content-center">
+                    <a href="index.html" class="navbar-brand logo">
+                        <img src="img/branding/logo_light_horizontal.svg" 
+                        title="Logotipo" alt="Logo" width="150px" class="">
+                    </a>
+                    <!-- <p class="text-white fw-bold logo"><a href="index.html">FUNKOSHOP</a></p> -->
+                </div>
+    
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3 d-flex align-items-center justify-content-center">
+                    <ul class="navbar-nav mb-2 d-flex flex-row-reverse ">
+                        <li class="nav-item">
+                            <a href="./pages/cart.html" class="nav-link text-white">
+                                <img src="img/icons/cart-icon.svg" width="30px" alt="Carrito-compras" title="Carrito-compras">
+                            </a>
+                        </li>
+                        <li class="nav-item px-2"><a href="./pages/login.html" class="nav-link text-white" target="_blank">LOGIN</a></li>
+                        <li class="nav-item px-2"><a href="./pages/contact.html" class="nav-link text-white">CONTACTO</a></li>
+                        <li class="nav-item px-2"><a href="shop.html" class="nav-link text-white">SHOP</a></li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3 d-flex align-items-center justify-content-center">
-                <ul class="navbar-nav mb-2 d-flex flex-row-reverse ">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-white">
-                            <img src="img/icons/cart-icon.svg" width="30px" alt="Carrito-compras" title="Carrito-compras">
-                        </a>
-                    </li>
-                    <li class="nav-item px-2"><a href="#" class="nav-link text-white" target="_blank">LOGIN</a></li>
-                    <li class="nav-item px-2"><a href="#" class="nav-link text-white">CONTACTO</a></li>
-                    <li class="nav-item px-2"><a href="shop.html" class="nav-link text-white">SHOP</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-   
+        </nav>
+    </header>
     <!-- MENU CON NAVBAR ADAPTABLE A MOBILE -->
     <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
         <div class="container">
@@ -81,15 +81,15 @@
     </nav> -->
 
     <!-- HEADER -->
-    <header class="container-fluid">
+    <div class="container-fluid header ">
         <div class="row">
-            <div class="col-sm-8 col-md-4 col-lg-4 col-xl-4 text-center mt-5">
-                <p class="h3 text-white  fw-bold">  Nuevos Ingresos</p>
-                <p class=" text-white  lead">  Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 text-center d-flex flex-column align-items-center mt-5 pt-3">
+                <p class="h3 text-white fw-bold">Nuevos Ingresos</p>
+                <p class=" text-white lead">  Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 <button class="btn btn-sm boton-header mt-4 px-5"> <a href="shop.html" class="nav-link ">SHOP</a></button>
             </div>
         </div>       
-    </header>
+    </div>
 
     
     <main class="container shadow py-4">

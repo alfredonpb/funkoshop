@@ -75,8 +75,7 @@ AQUI TERMINA LA NORMALIZACIÓN
 
 
 body{    
-    background-color:var(--fondo) ;
-    
+    background-color:var(--fondo);    
 }
 body a{
     color: #ffff;
@@ -93,26 +92,25 @@ nav{
     margin-left: 800px;    
 } */
 nav > div p a {
-    padding-left: 5px;
+    /* padding-left: 5px; */
 }
 
-header{
+.header{
 /* margin-top: 50px; */
 background:  url('../img/funkos-banner.webp');
 /* background: #ba3842; */
 /* vertical-align: top; */
 /* background-repeat: no-repeat; */
 background-size: cover;
-height: 350px;
-width: 1200px;
+height: 300px;
+/* width: 1200px; */
 }
 .boton-header{
 background-color: #ffff;
-
 border-radius: 20px;
 }
 .boton-header:hover{
-background-color: #11c43b;    
+background-color: #4beb27;    
 color:#ffff;
 }
 main p .nuevo{
@@ -138,9 +136,9 @@ text-decoration: none;
 
 /*MEDIA QUERIS*/
 @media screen and (max-width: 580px) {
-	.logo{
-		width: 80px;               
-	}
+	/* .logo{
+	     width: 80px;                
+	} */
     .letras-footer{
         font-size: 14px;       
     }
